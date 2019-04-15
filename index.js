@@ -10,14 +10,22 @@ function takeANumber(currentLine, personName){
   return string; 
 }
 
+let count = 1; 
+
 function takeANumberAlt(currentLine) {
   //get the number 1, add it to the line, return it to the customer 
-  let count = 1 //2 
+  
   currentLine.push(count)
    
   return count++ 
   
   //return a number, stay at that number 
+}
+
+
+function resetCount(){
+  var count = 0 
+  
 }
 
 
