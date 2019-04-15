@@ -10,7 +10,7 @@ function takeANumber(currentLine, personName){
   return string; 
 }
 
-let count = 1; 
+var count = 1; 
 
 function takeANumberAlt(currentLine) {
   //get the number 1, add it to the line, return it to the customer 
@@ -24,7 +24,7 @@ function takeANumberAlt(currentLine) {
 
 
 function resetCount(){
-  var count = 0 
+  count = 0 
   
 }
 
