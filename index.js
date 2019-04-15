@@ -14,11 +14,8 @@ function takeANumberAlt(currentLine) {
   //get the number 1, add it to the line, return it to the customer 
   let count = 1 
   currentLine.push(count)
-  count++ 
-  
-  return count 
-  
-  
+   
+  return count++ 
   
   //return a number, stay at that number 
 }
