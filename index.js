@@ -12,7 +12,7 @@ function takeANumber(currentLine, personName){
 
 function takeANumberAlt(currentLine) {
   //get the number 1, add it to the line, return it to the customer 
-  let count = 1 
+  let count = 1 //2 
   currentLine.push(count)
    
   return count++ 
